@@ -13,7 +13,9 @@ var d = new Date(),
 
 ReactDOM.render(
   <>
-    <h1 class="heading">My Dashboard</h1>
+    <a href="#">
+      <h1 className="heading">My Dashboard</h1>
+    </a>
     <p>todays date is: {`${day}/${month}/${year}`}</p>
     <p>Current Time is: {`${hours}:${minutes}:${seconds} ${a}`}</p>
   </>,
