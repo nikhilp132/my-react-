@@ -1,23 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-var d = new Date(),
-  year = d.getFullYear(),
-  month = d.getMonth() + 1,
-  day = d.getDate(),
-  hours = d.getHours(),
-  minutes = d.getMinutes(),
-  seconds = d.getSeconds(),
-  a = hours > 12 ? 'PM' : 'AM',
-  hours = hours > 12 ? hours - 12 : hours;
+import './style.css';
 
 ReactDOM.render(
   <>
-    <a href="#">
-      <h1 className="heading">My Dashboard</h1>
-    </a>
-    <p>todays date is: {`${day}/${month}/${year}`}</p>
-    <p>Current Time is: {`${hours}:${minutes}:${seconds} ${a}`}</p>
+    <h1 className="heading">My Dashboard</h1>
   </>,
   document.getElementById('root')
 );
