@@ -4,7 +4,7 @@ import './style.css';
 
 var heading = {
   color: 'blue',
-  fontSize: '70px',
+  fontSize: '50px',
 };
 
 ReactDOM.render(
