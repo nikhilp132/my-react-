@@ -1,7 +1,7 @@
 import React from 'react';
 
 function CreateList() {
-  return <p className="listCreater">+ Create a List</p>;
+  return <div className="listCreater">+ Create a List</div>;
 }
 
 export default CreateList;
